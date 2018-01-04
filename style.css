@@ -4,6 +4,7 @@ h1 {
   font-size: 32px;
   font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
@@ -12,10 +13,30 @@ h2 {
   font-size: 26px;
   font-weight: 100;
   margin: 0 auto 20px auto;
+  text-align: center;
 }
 
 p {
   color: #333;
   font-family: 'Varela Round', sans-serif;
   font-size: 18px;
+  text-align: center;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+li:hover {
+  color: #DBE9EE;
 }
